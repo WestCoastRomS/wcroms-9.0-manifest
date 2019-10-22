@@ -7,6 +7,9 @@
   <default revision="refs/tags/android-9.0.0_r47"
            remote="aosp"
            sync-j="4" />
+  <remote  name="github"
+           fetch="https://github.com/WestCoastRomS/"
+           revision="wcroms-9.0" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -720,6 +723,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+ 
+  <include name="snippets/wcroms.xml" />
+  <include name="snippets/lineage.xml" />  
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
