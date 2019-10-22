@@ -649,7 +649,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/wcroms-9.0" />
+  <include name="snippets/wcroms.xml" />
 
 
 </manifest>
