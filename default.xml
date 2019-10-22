@@ -12,8 +12,8 @@
            fetch="ssh://git@gitlab.com" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+           fetch="https://github.com/WestCoastRomS/"
+           review="wcroms-9.0" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
