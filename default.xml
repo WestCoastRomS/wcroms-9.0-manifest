@@ -11,7 +11,7 @@
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com" />
 
-  <remote  name="github"
+  <remote  name="WestCoastRomS"
            fetch="https://github.com/WestCoastRomS/"
            review="wcroms-9.0" />
 
