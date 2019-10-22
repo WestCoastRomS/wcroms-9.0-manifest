@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
-<remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+<remote  name="wcroms-9.0"
+           fetch="https://github.com/WestCoastRomS/"
+           review=".." />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
